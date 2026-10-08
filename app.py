@@ -25,7 +25,7 @@ ROOT = Path(__file__).parent
 EX = ROOT / "examples" / "belle_ile"
 BY = {s.key: s for s in SPEC}
 STEPS = ["Site", "Use case", "Data", "Technologies", "Run", "Results"]
-REPO_URL = "https://github.com/YOUR-ACCOUNT/evolve-planner"     # edit after you create the repository
+REPO_URL = "https://github.com/ghsina/evolve-planner"     # edit after you create the repository
 
 NAMES = {
     ("use_case", "Power-led"): "Electricity", ("use_case", "Hydrogen-led"): "Hydrogen",
